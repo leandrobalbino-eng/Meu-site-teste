@@ -1,0 +1,33 @@
+ body{
+background-image: url(../img/fundo.png);
+background-repeat: round;
+}
+
+
+h1,h2{
+text-align:center;
+color: #fff;		
+}	
+	    
+ul li{ 
+text-decoration: underline;
+color: #fff;
+font-weight: bolder;
+font-size: 20px;
+}
+
+P{
+color: #F0F8FF;
+font-weight: bolder;
+text-align: justify;
+font-size: 20px;
+}
+
+figure{
+text-align: center;
+}
+.gt{ font-size: 70px; }
+
+img{
+width:50%;
+}
