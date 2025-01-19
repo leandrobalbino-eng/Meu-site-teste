@@ -9,25 +9,106 @@ text-align:center;
 color: #fff;		
 }	
 	    
-ul li{ 
-text-decoration: underline;
-color: #fff;
-font-weight: bolder;
+ul,li{ 
+color: black;
 font-size: 20px;
+display: inline;
+margin-right: 80px;
+margin-left:120px;
+
 }
 
 P{
 color: #F0F8FF;
-font-weight: bolder;
 text-align: justify;
 font-size: 20px;
 }
 
+img{
+width:60%;
+}
+
 figure{
 text-align: center;
-}
-.gt{ font-size: 70px; }
 
-img{
-width:50%;
 }
+
+.gt{ font-size: 70px;
+margin-top: 150px;
+ }
+
+.escopo{
+text-align: center;
+width: ;	
+}
+
+h3{
+color: #fff;
+margin-left: 600px;	
+}
+
+.log{
+	width: 250px;
+}   
+	
+ .nav-bar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #f8f9fa;
+            border-bottom: 5px solid #ddd;
+            padding: 5px 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+        }
+
+        .nav-bar ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .nav-bar li {
+            margin:-5%;
+        }
+
+        .nav-bar a {
+            text-decoration: none;
+            color: #333;
+            font-size: 16px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        .nav-bar a:hover {
+            color: #007bff;
+        }
+
+        .content {
+            margin-top: 60px;
+            padding: 20px;
+        }
+
+        .nav-bar h1{
+            width: 20%;
+            margin-left:40% ;
+            margin-top: 5px;
+            border-bottom:100%;
+        }
+
+        .cor{
+
+            position:static;
+            top:90%;
+            left:0;
+            width: 100%;
+            background-color: #f8f9fa;
+            border-bottom: 0px solid #ddd;
+            padding: 20px 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+        }
+
